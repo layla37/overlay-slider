@@ -1,0 +1,29 @@
+.container {
+  margin: auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+
+.image {
+  margin: 10px;
+}
+
+.image-title {
+  padding-top: 10px;
+}
+
+.loading {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.thumbnail {
+  height: 200px;
+}
