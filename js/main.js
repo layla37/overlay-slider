@@ -1,5 +1,5 @@
 (function() {
-const API_KEY = 'API key placeholder'; <------ replace with your flickr API key
+const API_KEY = 'API key placeholder'; // <------ replace with your flickr API key
 const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 const targetUrl = `https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key=${API_KEY}&gallery_id=66911286-72157647277042064&format=json&nojsoncallback=1`;
 let slider;
